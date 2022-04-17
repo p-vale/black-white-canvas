@@ -63,7 +63,7 @@ footer.setAttribute('id', 'footer')
 const profile = document.createElement('a')
 const link = document.createTextNode('p-vale') // can't use innerHTML or title with <a>
 profile.appendChild(link)
-profile.href = 'https://github.com/p-vale'
+profile.href = 'https://github.com/p-vale/black-white-canvas'
 const credits = document.createElement('p')
 credits.innerHTML = 'made by '
 credits. appendChild(profile)
