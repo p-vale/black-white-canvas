@@ -67,11 +67,8 @@ profile.href = 'https://github.com/p-vale/black-white-canvas'
 const credits = document.createElement('p')
 credits.innerHTML = 'made by '
 credits. appendChild(profile)
-const project = document.createElement('p')
-project.innerHTML = 'Based on the Domestika course \'Creative Coding\'; examples recreated without framework.'
 
 footer.appendChild(credits)
-footer.appendChild(project)
 
 // render
 document.body.appendChild(title)
